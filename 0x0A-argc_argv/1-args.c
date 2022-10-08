@@ -4,11 +4,11 @@ void print_number(int num);
 
 /**
 
-* main - Prints the number of arguments passed into it
+ * main - Prints the number of arguments passed into it
  *
  * @argc: Length of @argv
  *
-* @argv: Array of strings of the programs arguments
+ * @argv: Array of strings of the programs arguments
  *
  * Return: 0, Success
 */

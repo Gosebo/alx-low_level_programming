@@ -1,12 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - Mian
+ * main - Prints files name
  * @argc: int type
  * @argv: char type
- * Return: printis files name
+ * Return: 0, Success
  **/
+
 int main(int argc, char *argv[])
 {
 int x = 0, y = 0;
@@ -14,10 +16,10 @@ int x = 0, y = 0;
 if (argc == 3)
 {
 x = atoi(argv[1]);
-y = atoi(argv[2]); 
- 
-printf("%d\n", x *y); 
- 
+y = atoi(argv[2]);
+
+printf("%d\n", x *y);
+
 }
 
 else
